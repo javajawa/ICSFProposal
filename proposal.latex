@@ -21,8 +21,19 @@
 
 \begin{document}
 
-  \maketitle
-  \tableofcontents
+	\maketitle
+
+	\begin{abstract}
+  		Since their previous revision, both ICSF's Constitution and
+		Standing Orders have been kept under revision control - meaning
+		that all ``checked-in'' versions are always available.
+		What we proposed is a mechanism for members to be able to
+		suggest changes in a controlled manner at any time, backed on
+		external purpose built software for handling distributed
+		revision of documents.
+	\end{abstract}
+
+	\tableofcontents
 
 \end{document}
 
