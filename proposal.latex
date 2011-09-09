@@ -55,6 +55,16 @@
 
 	\section{Future and Further Uses}
 
+	This idea is also useful for any documents which we use on a regular
+	basis, and change slightly now and again.
+	Two further examples come to mind - firstly, changing the method of
+	the database backup to use git; this, however, raises major privacy
+	concerns with regards to personal data, and would probably require us
+	to get a private repository.
+	The other public use is for the outline for the current additions of
+	Wyrmtounge, which use a similar development system and tools as the
+	constitution files.
+
 \end{document}
 
 % vim: set nospell nolist:
