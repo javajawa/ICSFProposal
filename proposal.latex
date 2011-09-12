@@ -60,7 +60,7 @@
 
 	A somewhat common misconception is that this will let anyone just
 	wander by and change the contents of the files.
-	In fact, the exact opposite is true - the files in a repo cna only be
+	In fact, the exact opposite is true - the files in a repo can only be
 	directly altered by the controller of that repo.
 	Changes are made by a third party cloning the repo - creating an
 	equivilent copy of the original under their control.
