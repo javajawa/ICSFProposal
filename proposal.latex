@@ -116,7 +116,13 @@
 	\subsection{Set up}
 
 	Firstly, a GitHub account would be created using icsf's root email
-	account.
+	account, \url{icsflib@gmail.com}.
+	This account would contain the canonical master version of the data
+	on GitHub;
+	the official 'origin' may well remain on ICSF's servers - the
+	difference is entirely semantic, giving us a redundant backup either way.
+
+	Then, the repository as it stands would be pushed to GitHub.
 
 	\subsection{Ongoing Administartion}
 
