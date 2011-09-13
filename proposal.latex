@@ -124,7 +124,33 @@
 
 	Then, the repository as it stands would be pushed to GitHub.
 
-	\subsection{Ongoing Administartion}
+	\subsection{Ongoing Administration}
+
+	Requests made via GitHub would have to be reviewed.
+	It makes most sense to assign this to be one of the duties of one
+	of the committee members - the Tech Priest should already have the
+	requisite knowledge to understand the workings, and an additional
+	guide would be added to the wiki.
+
+	The email account system would be modified to forward notifications
+	of GitHub pull requests to the chosen committee member, allowing
+	them to review the proposed changes.
+	Those who choose to watch the repository on GitHub will also be
+	informed in accordance with their settings, allowing them to
+	contribute their thoughts.
+
+	Before a meeting at which the documents would be discussed, proposals
+	can be merged into the 'integration branch' - a list of things we're
+	interested in looking at.
+
+	Git's in built tools allow for the generation of a list of changes,
+	and including the comments already collected should not be too
+	complicated.
+	This can then be distributed to the committee and voted on as a
+	series of propositions, as submitted.
+	This procedure would still be governed (and, as described, is within)
+	the tenants set out by the Union Constitution and the Society's
+	Constitution.
 
 	\subsection{Analysis of Costs}
 
