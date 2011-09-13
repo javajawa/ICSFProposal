@@ -1,4 +1,4 @@
-TARGET_FILES = proposal.pdf
+TARGET_BASENAMES = proposal
 SOURCE_FILES = $(wildcard **/*.latex)
 FIGURES = $(wildcard figures/*)
 
@@ -8,13 +8,13 @@ FIGURES = $(wildcard figures/*)
 .INTERMEDIATE: %.aux %.dvi %.ptmp %.toc %.out
 .PRECIOUS: %.log 
 
-all : $(TARGET_FILES)
+all : $(TARGET_BASENAMES:=.pdf)
 no-logs : all log-clean
 
 %.pdf : %.dvi
 	echo "========== $@ ==========="
 	dvipdf $< > $@
-	rm -f $(subst .dvi,.aux,$<)
+	rm -f $($<:.dvi=.aux)
 
 %.dvi : %.latex %.toc
 	echo "========== $@ ==========="
@@ -32,14 +32,13 @@ no-logs : all log-clean
 
 clean : log-clean
 	echo "========== $@ ==========="
-	rm -f $(TARGET_FILES)
-	rm -f $(subst .pdf,.aux, $(TARGET_FILES))
-	rm -f $(subst .pdf,.dvi, $(TARGET_FILES))
-	rm -f $(subst .pdf,.toc, $(TARGET_FILES))
-	rm -f $(subst .pdf,.ptmp,$(TARGET_FILES))
+	rm -f $(TARGET_BASENAMES:=.pdf)
+	rm -f $(TARGET_BASENAMES:=.dvi)
+	rm -f $(TARGET_BASENAMES:=.toc)
+	rm -f $(TARGET_BASENAMES:=.ptmp)
 
 log-clean :
 	echo "========== $@ ==========="
-	rm -f $(subst .pdf,.log,$(TARGET_FILES))
-	rm -f $(subst .dvi,.aux,$(TARGET_FILES))
+	rm -f $(TARGET_BASENAMES:=.log)
+	rm -f $(TARGET_BASENAMES:=.aux)
 
