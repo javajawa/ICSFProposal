@@ -47,10 +47,10 @@
 	\subsection{GitHub}
 
 	GitHub is a popular, mature website which hosts Git repositories.
-	A resonable nubmer of ICSF members already have a GitHub account,
+	A reasonable number of ICSF members already have a GitHub account,
 	so it is not an unknown to all of the editors.
 	Furthermore, at the time of writing, it hosts the main repository for
-	the Linux Kernel project, which forms the backbone of all linux
+	the Linux Kernel project, which forms the backbone of all Linux
 	distributions.
 
 	GitHub accounts for free projects are free, and always will be
@@ -63,19 +63,19 @@
 	In fact, the exact opposite is true - the files in a repo can only be
 	directly altered by the controller of that repo.
 	Changes are made by a third party cloning the repo - creating an
-	equivilent copy of the original under their control.
-	They can alter the files as much as they want, creating any nubmer of
+	equivalent copy of the original under their control.
+	They can alter the files as much as they want, creating any number of
 	revisions, and can also copy in changes from other sources.
 	The ability to copy in ('pull') other's changes will also be available
 	to the original user, allowing them to incorporate other's work.
 
 	GitHub automates large chunks of this process - the main repo's files
-	will have edit buttons, which silent casue the repo to be cloned and
+	will have edit buttons, which silent cause the repo to be cloned and
 	so forth.
 	It also has the option of creating 'pull-requests', a way of proposing
 	what changes should be merged into the original repo.
 
-	GitHub also draws a lot from the phenomenem of social networking sites,
+	GitHub also draws a lot from the world of social networking sites,
 	in that virtually everything can be commented upon and discussed, in
 	much the same way as a change to an important document should be.
 	Discussion of pull-requests, revisions, and even individual lines
@@ -84,32 +84,32 @@
 	\subsection{Affects on the Society}
 
 	Being a free, public repository would mean that anyone would be able to
-	see the the consitution source code which, for all intents and purposes,
-	is the same as being able to see the consitution itself;
-	the constitution is already publically available on the web.
+	see the constitution source code which, for all intents and purposes,
+	is the same as being able to see the constitution itself;
+	the constitution is already publicly available on the web.
 
 	The constitution and standing orders are normally brought up at the AGM
 	by a certain subset of the society who care a great deal about the
 	paperwork.
 	These people are also the ones most likely to want to discuss changes
-	made by others, which might cuase them to do a lot of work without any
+	made by others, which might cause them to do a lot of work without any
 	input from the rest of the society.
 
 	However, in many ways, this is an optimal solution. The changes still
 	have to be passed as stated within the documents, and thus will still
-	under go the scrutiny of the commitee and or membership in much the
+	under go the scrutiny of the committee and or membership in much the
 	same way as they always did.
 	The difference would be that the changes being proposed will have been
 	argued out at least as much on the internet than just being proposed in
 	a meeting.
 
 	The extreme end of this is to require that all non-formatting and
-	non-proofing changes be acconpanied with a document explaining their
+	non-proofing changes be accompanied with a document explaining their
 	rationale.
 
 	Either way, these can all be collated an distributed in advance of the
-	approrpriate meetings, allowing those who will vote slightly more time
-	than has been avaialable in past years to review the proposals.
+	appropriate meetings, allowing those who will vote slightly more time
+	than has been available in past years to review the proposals.
 
 	\section{Implementation}
 
