@@ -40,9 +40,38 @@
 	\section{Proposal}
 
 	\subsection{Revision Control}
-	- Outline Idea
-	 - Mention Linux
-	- Touch on 'Distributed' and 'Branch'
+
+	Revision control does pretty much what it says - it tracks and
+	controls revision of some data.
+	In this case, we're looking at keeping track of revisions to the
+	core document of the society - the Constitution, and the Standing
+	Orders - and the potential amendments to them.
+
+	The suggested method of revision control is called Git, a system
+	which is currently in use with over 2 million projects\footnote{
+		Github alone claims around 2.8 million repositories
+	} including several high profile open source systems, such as the
+	core of all Linux systems, the Linux Kernel project.
+	It would be used in conjunction with the we service GitHub
+	(\url{github.com}).
+
+	Git is appropriate for a variety of reasons, the major one being
+	that it is a distributed revision control system.
+	Each version (`clone' or `fork')  of the original data in entirely independent
+	of the original, allowing people to work in private on any git
+	project.
+	Inside this private copy, ever single version is always accessible;
+	furthermore, versions do not have to come one after another -
+	there can also be different branches of the tree.
+
+	Changes, called 'commits' are uniquely identified, allowing for
+	comparisons between different versions of the same project, and
+	determining where their histories diverged.
+	This functionality also allows changes to be pushed and pulled
+	between the different forks of a project.
+
+	Git also does a lot more, but this covers the core ideas for the
+	functions that would be mainly used in a project of this nature.
 
 	\subsection{GitHub}
 
@@ -55,6 +84,11 @@
 
 	GitHub accounts for free projects are free, and always will be
 	(unless GitHub decide to lose all their customers).
+	The versions of the data under revision control are kept in a
+	Git repository (repo for short).
+	Each clone (copy) of the repo is entirely stand alone - it has
+	data on all of the revisions, the ability to create new ones, and
+	the ability to send and receive other changes from other repos.
 
 	\subsection{Structure of Proposing an Amendment}
 
