@@ -166,6 +166,8 @@
 
 	This idea is also useful for any documents which we use on a regular
 	basis, and change slightly now and again.
+	It would perhaps make sense to include the rest of the current union
+	documentation: the risk assessment, code of conduct, etc.
 	Two further examples come to mind - firstly, changing the method of
 	the database backup to use git; this, however, raises major privacy
 	concerns with regards to personal data, and would probably require us
