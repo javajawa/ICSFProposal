@@ -14,7 +14,6 @@ no-logs : all log-clean
 %.pdf : %.dvi
 	echo "========== $@ ==========="
 	dvipdf $< > $@
-	rm -f $($<:.dvi=.aux)
 
 %.dvi : %.latex %.toc
 	echo "========== $@ ==========="
@@ -34,8 +33,9 @@ clean : log-clean
 	echo "========== $@ ==========="
 	rm -f $(TARGET_BASENAMES:=.pdf)
 	rm -f $(TARGET_BASENAMES:=.dvi)
-	rm -f $(TARGET_BASENAMES:=.toc)
+	rm -f $(TARGET_BASENAMES:=.out)
 	rm -f $(TARGET_BASENAMES:=.ptmp)
+	rm -f $(TARGET_BASENAMES:=.toc)
 
 log-clean :
 	echo "========== $@ ==========="
