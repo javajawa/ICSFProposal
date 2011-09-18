@@ -64,7 +64,7 @@
 	furthermore, versions do not have to come one after another -
 	there can also be different branches of the tree.
 
-	Changes, called 'commits' are uniquely identified, allowing for
+	Changes, called `commits' are uniquely identified, allowing for
 	comparisons between different versions of the same project, and
 	determining where their histories diverged.
 	This functionality also allows changes to be pushed and pulled
@@ -100,13 +100,13 @@
 	equivalent copy of the original under their control.
 	They can alter the files as much as they want, creating any number of
 	revisions, and can also copy in changes from other sources.
-	The ability to copy in ('pull') other's changes will also be available
+	The ability to copy in (`pull') other's changes will also be available
 	to the original user, allowing them to incorporate other's work.
 
 	GitHub automates large chunks of this process - the main repo's files
 	will have edit buttons, which silent cause the repo to be cloned and
 	so forth.
-	It also has the option of creating 'pull-requests', a way of proposing
+	It also has the option of creating `pull-requests', a way of proposing
 	what changes should be merged into the original repo.
 
 	GitHub also draws a lot from the world of social networking sites,
@@ -153,7 +153,7 @@
 	account, \url{icsflib@gmail.com}.
 	This account would contain the canonical master version of the data
 	on GitHub;
-	the official 'origin' may well remain on ICSF's servers - the
+	the official `origin' may well remain on ICSF's servers - the
 	difference is entirely semantic, giving us a redundant backup either way.
 
 	Then, the repository as it stands would be pushed to GitHub.
@@ -174,7 +174,7 @@
 	contribute their thoughts.
 
 	Before a meeting at which the documents would be discussed, proposals
-	can be merged into the 'integration branch' - a list of things we're
+	can be merged into the `integration branch' - a list of things we're
 	interested in looking at.
 
 	Git's in built tools allow for the generation of a list of changes,
